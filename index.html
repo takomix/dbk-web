@@ -1,0 +1,38 @@
+<div class="box">
+<h1>あ</h1>
+</div>
+
+<style>
+body {
+  background-color: #313338;
+}
+
+.box {
+  animation: rotation 4s linear infinite,rainbow 4s infinite;
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 0;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rainbow{
+    0%{color:#ff0053;}
+    12%{color:#ff5353;}
+    24%{color:#ffcf53;}
+    36%{color:#e8ff53;}
+    48%{color:#53ff5d;}
+    60%{color:#53ffbc;}
+    72%{color:#5393ff;}
+    84%{color:#ca53ff;}
+    100%{color:#ff53bd;}
+}
+</style>
